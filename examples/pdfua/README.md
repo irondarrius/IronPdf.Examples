@@ -1,0 +1,5 @@
+***Based on <https://ironpdf.com/examples/pdfua/>***
+
+IronPDF's `SaveAsPdfUA` method enables you to output PDF documents that are compliant with the PDF/UA standards, aimed at enhancing accessibility and inclusiveness for users with disabilities. For detailed guidelines on producing accessible PDF files, please check out the [IronPDF PDF/UA Compliance Guide](https://ironpdf.com/how-to/pdfua/).
+
+Additionally, Iron Software offers a range of other impressive libraries. For instance, if you are keen on creating or recognizing barcodes, explore [IronBarcode](https://ironsoftware.com/csharp/barcode/). Alternatively, if you want to leverage cutting-edge OCR technology, [IronOCR](https://ironsoftware.com/csharp/ocr/) provides extensive information and capabilities. Visit these pages to discover more about what these features can do.

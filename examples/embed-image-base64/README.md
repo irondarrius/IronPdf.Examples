@@ -1,0 +1,5 @@
+***Based on <https://ironpdf.com/examples/embed-image-base64/>***
+
+To include an image in HTML using base64 encoding, it's necessary to first retrieve the binary data of the image. This can be done by either reading from an image file or downloading it via a network request. Next, utilize the `.NET` method `Convert.ToBase64String` to convert this binary data into a base64 format. When you assemble the HTML image tag, ensure to add the prefix "data:image/svg+xml;base64," to the base64 string. Remember, it's crucial to specify the type of the image before the base64 string itself. For more information on types of image formats, you can visit [MDN Web Docs on Image Types](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types).
+
+Explore additional techniques for embedding images in documents in the article: [How to Add Images to PDFs with Base64 Example](https://ironpdf.com/how-to/add-images-to-pdfs/#embed-with-base64-example).
