@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using IronPdf;
 namespace IronPdf.Examples.HowTo.HttpRequestHeader
 {
@@ -6,15 +5,10 @@ namespace IronPdf.Examples.HowTo.HttpRequestHeader
     {
         public static void Run()
         {
-            var renderer = new ChromePdfRenderer();
-            renderer.RenderingOptions.HttpRequestHeaders = new Dictionary<string, string>
-            {
-                { "Authorization", "Bearer test-token-123" }
-            };
-            
-            // Render PDF from authenticated page
-            var pdf = renderer.RenderUrlAsPdf("https://httpbin.org/bearer");
-            pdf.SaveAs("output.pdf");
+            :title=Render a URL with custom HTTP headers in one line!
+            new IronPdf.ChromePdfRenderer { RenderingOptions = { HttpRequestHeaders = new Dictionary<string,string> { { "Authorization", "Bearer your_token_here" }, { "User-Agent", "MyApp/1.0" } } } }
+                .RenderUrlAsPdf("https://httpbin.org/bearer")
+                .SaveAs("withHeaders.pdf");
         }
     }
 }

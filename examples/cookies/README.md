@@ -1,11 +1,13 @@
 ***Based on <https://ironpdf.com/examples/cookies/>***
 
-The provided code illustrates how to leverage IronPDF to handle network authentication and manage cookies while converting a webpage into a PDF format.
+This snippet outlines the use of IronPDF to authenticate a request with network credentials and to append cookies, which is crucial for converting web pages to PDF format.
 
-To begin, a `**ChromePdfRenderer**` object is initialized, serving the purpose of converting webpages into PDF formats. By setting the `RenderingOptions.RequestContext` to `RequestContexts.Global`, the renderer is configured to retain the same browsing context throughout the rendering process. This configuration is crucial as it allows for the continuous persistence of cookies and authentication details across multiple requests.
+- **`ChromePdfRenderer`**: This is utilized to convert HTML content to PDF.
+- **`RequestContexts.Global`**: By maintaining a consistent browsing context throughout the lifespan of the process, this supports the use of cookies and authentication across multiple requests.
+- **`ChromeHttpLoginCredentials`**: This facilitates network authentication for accessing web pages that are protected by login credentials.
+- **`ApplyCookies`**: This method attaches the defined cookies and credentials to the HTTP request, essential for processing secure web pages.
+- **`uri`**: This denotes the URL of the web page to be converted into a PDF, often requiring user login. For demonstration, it points to a webpage hosted locally.
 
-Subsequently, an instance of `ChromeHttpLoginCredentials` is created using 'testUser' as the username and 'testPassword' as the password. This step is essential for network authentication, particularly when accessing webpages that are protected and require user credentials.
+This configuration is highly beneficial for generating PDFs from protected pages, such as invoices, reports, or dashboards, where user credentials are necessary.
 
-The variable `uri` is designated to store the URL of the target webpage [`http://localhost:51169/Invoice`](http://localhost:51169/Invoice), which presumably points to an invoice page hosted locally that requires user authentication.
-
-To conclude the setup, the `ApplyCookies` method is invoked. This method is crucial as it ensures that the URL request includes the necessary cookies and authentication details. Implementing this method is particularly beneficial when generating PDFs from webpages that necessitate authentication, such as invoices, reports, or dashboards.
+[Learn to Apply Cookies in PDF Rendering with IronPDF.](https://ironpdf.com/how-to/cookies)

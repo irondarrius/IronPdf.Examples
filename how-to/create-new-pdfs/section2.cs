@@ -5,9 +5,9 @@ namespace IronPdf.Examples.HowTo.CreateNewPdfs
     {
         public static void Run()
         {
-            PdfDocument pdf = PdfDocument.FromFile("sample.pdf");
+            PdfDocument pdf = new PdfDocument(270, 270);
             
-            pdf.SaveAs("export.pdf");
+            pdf.SaveAs("blankPage.pdf");
         }
     }
 }

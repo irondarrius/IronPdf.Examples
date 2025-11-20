@@ -1,4 +1,3 @@
-using System.Linq;
 using IronPdf;
 namespace IronPdf.Examples.HowTo.AccessPdfDomObject
 {
@@ -6,14 +5,8 @@ namespace IronPdf.Examples.HowTo.AccessPdfDomObject
     {
         public static void Run()
         {
-            // Instantiate Renderer
-            ChromePdfRenderer renderer = new ChromePdfRenderer();
-            
-            // Create a PDF from a URL
-            PdfDocument pdf = renderer.RenderUrlAsPdf("https://ironpdf.com/");
-            
-            // Access DOM Objects
-            var objects = pdf.Pages.First().ObjectModel;
+            :title=Access and modify PDF DOM objects in one line!
+            var objs = IronPdf.ChromePdfRenderer.RenderUrlAsPdf("https://example.com").Pages.First().ObjectModel;
         }
     }
 }
