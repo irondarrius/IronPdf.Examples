@@ -1,6 +1,6 @@
 # Utilizing the WaitFor Class to Enhance C# PDF Rendering
 
-***Based on <https://ironpdf.com/how-to/waitfor/>***
+> Full guide: [Utilizing the WaitFor Class to Enhance C# PDF Rendering](https://ironpdf.com/how-to/waitfor/)
 
 
 In the process of generating PDFs, it's quite common to encounter challenges where the PDF is rendered before JavaScript assets or animations have fully loaded. This premature rendering can lead to inaccuracies in the final document. Initially, we recommended inserting a manual delay to mitigate this issue, but this method proved to be unreliable and inefficient.

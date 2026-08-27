@@ -1,6 +1,6 @@
 # Integrating IronPDF with MAUI on Android
 
-***Based on <https://ironpdf.com/get-started/android/>***
+> Full guide: [Integrating IronPDF with MAUI on Android](https://ironpdf.com/get-started/android/)
 
 
 <div class="container-fluid">

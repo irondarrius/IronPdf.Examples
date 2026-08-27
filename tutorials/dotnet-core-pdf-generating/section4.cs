@@ -6,7 +6,6 @@ namespace IronPdf.Examples.Tutorial.DotnetCorePdfGenerating
         public static void Run()
         {
             // Program.cs — compatible with .NET 8 and newer
-            using IronPdf;
             
             // Sample HTML fragment (could also be read from a file, Razor view, or CMS)
             const string html = """

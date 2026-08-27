@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/backgrounds-and-foregrounds/>***
+> Full guide: [Backgrounds and foregrounds](https://ironpdf.com/examples/backgrounds-and-foregrounds/)
 
 When working with IronPDF, you may wish to apply specific backgrounds and foregrounds while creating and rendering PDF documents. This technique can be particularly effective for maintaining design consistency across documents and for leveraging templates.
 

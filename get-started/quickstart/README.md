@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/get-started/quickstart/>***
+> Full guide: [Quickstart](https://ironpdf.com/get-started/quickstart/)
 
 <style>
     .main-article {
@@ -292,7 +292,6 @@ You will need:
 IronPDF offers a standard local installation. For deployment within Docker or microservices environments, refer to the [Remote Engine Mode Guide](https://ironsoftware.com/csharp/pdf/docs/questions/remote-engine-mode/).
 
 ```csharp
-:title=Start Creating PDFs Immediately!
 // Initialize the PDF renderer
 IronPdf.ChromePdfRenderer
        .StaticRenderHtmlAsPdf("<p>Hello World</p>")
@@ -398,10 +397,7 @@ Continue following the guide to see how you can create your very first PDF, expl
 
 IronPDF can be installed locally with ease. For deployments using Docker or microservices, refer to the [Remote Engine Mode Guide](https://ironpdf.com/get-started/ironpdfengine/).
 
-Here’s a revised version of the code snippet, with updated code comments and a slightly modified approach:
-
 ```cs
-:title=Begin creating PDFs instantly!
 // Initialize a ChromePDFRenderer to render HTML as PDF
 var pdfRenderer = new IronPdf.ChromePdfRenderer();
 
@@ -427,14 +423,9 @@ pdfRenderer.StaticRenderHtmlAsPdf("<p>Hello World</p>")
 <div id="nuget-package-manager-start"></div>
 Go to the [IronPDF NuGet library:](https://www.nuget.org/packages/IronPdf)
 
-Here's the paraphrased section of the article, with updated URL paths:
-
------
 1. Navigate to the Solution Explorer, then perform a right-click on "References".
  
 2. Choose 'Manage NuGet Packages', click on 'Browse', and then search for "IronPdf".
-
-Here's the paraphrased section of the article, with the relative URL path resolved:
 
 ```shell
 dotnet add package IronPdf
@@ -695,8 +686,6 @@ For further reading, visit [Converting Microsoft Word documents to PDF in C#](ht
 using IronPdf;
 ```
 
-Here's the paraphrased section of the article where the IronPDF namespace is included:
-
 ```csharp
 // Include the IronPdf library in your application
 using IronPdf;
@@ -721,8 +710,6 @@ using IronPdf;
 
 <div id="create-a-blank-pdf-start"></div>
 The simplest way to create a PDF object uses just the width and height. This `PdfDocument` constructor creates a blank PDF, ready for customization.
-
-Here's the paraphrased section of the article with resolved URL paths:
 
 ```csharp
 using IronPdf;
@@ -793,8 +780,6 @@ Beyond basic PDF generation and conversions, IronPDF extends its capabilities to
 
 <div id="add-headers-and-footers-start"></div>
 Create text headers or footers by instantiating `TextHeaderFooter`, adding your text, and attaching it to the PDF.
-
-Here's the paraphrased section of the article:
 
 ```csharp
 using IronPdf;

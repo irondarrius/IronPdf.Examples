@@ -1,6 +1,6 @@
 # Utilizing OpenAI for PDF Processing
 
-***Based on <https://ironpdf.com/how-to/openai/>***
+> Full guide: [Utilizing OpenAI for PDF Processing](https://ironpdf.com/how-to/openai/)
 
 
 <div class="container-fluid">
@@ -20,7 +20,6 @@ The [`IronPdf.Extensions.AI`](https://www.nuget.org/packages/IronPdf.Extensions.
 Start by embedding OpenAI features into your PDF management tasks using IronPDF in C#. Here's a quick code snippet on how to summarize a PDF document efficiently, enhancing your PDF handling with powerful AI tools.
 
 ```csharp
-:title=Effortlessly Summarize PDFs using AI!
 // Install-Package IronPdf.Extensions.AI
 await IronPdf.AI.PdfAIEngine.Summarize("input.pdf", "summary.txt", azureEndpoint, azureApiKey);
 ```

@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/scale-pdf-objects/>***
+> Full guide: [Scale PDF objects](https://ironpdf.com/examples/scale-pdf-objects/)
 
 IronPDF grants developers the capability to programmatically scale PDF objects, allowing for sophisticated adjustment of components like text and images within a PDF. This is achieved without having to alter the original document or create a new one.
 
@@ -15,7 +15,6 @@ With the IronPDF library at hand, scaling elements in a PDF becomes a straightfo
         <li>pdf.SaveAs("scaled_image.pdf");</li>
     </ol>
 </div>
-```
 
 ## Code Explanation
 

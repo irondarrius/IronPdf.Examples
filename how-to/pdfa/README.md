@@ -1,6 +1,6 @@
 # Exporting PDF/A or PDF/A-3 Format Documents in C#
 
-***Based on <https://ironpdf.com/how-to/pdfa/>***
+> Full guide: [Exporting PDF/A or PDF/A-3 Format Documents in C#](https://ironpdf.com/how-to/pdfa/)
 
 
 <div class="alert alert-info iron-variant-1" role="alert">
@@ -16,7 +16,6 @@ As a proud [member of the PDF Association](https://pdfa.org/member/ironsoftware/
 Easily transform your standard PDFs into the archival PDF/A-3b format with IronPDF, providing assured long-term preservation and adherence to compliance standards. Utilize IronPDF’s robust features to quickly and reliably convert your documents to PDF/A formats, ensuring they remain accessible and consistently rendered.
 
 ```cs
-:title=Transform PDFs to PDF/A-3 Smoothly
 IronPdf.PdfDocument pdf = IronPdf.PdfDocument.FromFile("example.pdf");
 pdf.SaveAsPdfA("output.pdf");
 ```

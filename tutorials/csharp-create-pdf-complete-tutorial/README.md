@@ -1,6 +1,6 @@
 # Creating PDFs in C#
 
-***Based on <https://ironpdf.com/tutorials/csharp-create-pdf-complete-tutorial/>***
+> Full guide: [Creating PDFs in C#](https://ironpdf.com/tutorials/csharp-create-pdf-complete-tutorial/)
 
 
 Developing PDFs programmatically can raise several challenges, from inserting headers and footers to resolving compatibility issues. IronSoftware streamlines this task, encapsulating various PDF creation features into user-friendly methods. This allows developers to efficiently engage with their projects.
@@ -204,3 +204,4 @@ var builder = Kernel.CreateBuilder()
     .AddAzureOpenAITextEmbeddingGeneration("oaiembed", azureEndpoint, apiKey)
     .AddAzureOpenAIChatCompletion("oaichat", azureEndpoint, apiKey);
 var kernel = builder.Build();
+```

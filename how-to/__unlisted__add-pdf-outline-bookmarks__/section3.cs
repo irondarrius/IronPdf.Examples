@@ -10,7 +10,6 @@ namespace IronPdf.Examples.HowTo.__Unlisted__AddPdfOutlineBookmarks__
              * anchor-extract-and-search-text-images
              **/
             
-            using IronPdf;
             
             // Create a new PDF or edit an existing document
             PdfDocument pdf = PdfDocument.FromFile("file.pdf");

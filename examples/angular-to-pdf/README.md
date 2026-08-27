@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/angular-to-pdf/>***
+> Full guide: [Angular to PDF](https://ironpdf.com/examples/angular-to-pdf/)
 
 IronPDF offers a comprehensive toolkit that supports the full spectrum of rendering PDFs via JavaScript within HTML. This includes compatibility with Angular.js and other widely-used single-page and front-end web development frameworks.
 

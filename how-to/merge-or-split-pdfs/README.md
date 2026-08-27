@@ -1,6 +1,6 @@
 # Combining and Separating PDF Documents
 
-***Based on <https://ironpdf.com/how-to/merge-or-split-pdfs/>***
+> Full guide: [Combining and Separating PDF Documents](https://ironpdf.com/how-to/merge-or-split-pdfs/)
 
 
 Combining several PDF documents into one can be immensely beneficial for various needs. For example, this could mean amalgamating all resumes into a single PDF file rather than dealing with numerous individual files. This guide provides a complete walkthrough on how to combine multiple PDF files using C#. IronPDF makes PDF separation and combination straightforward with eloquent method calls in your C# application. Below, we examine all the procedures for manipulating PDF pages.

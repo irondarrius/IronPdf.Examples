@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/pdf-cover-page/>***
+> Full guide: [PDF cover page](https://ironpdf.com/examples/pdf-cover-page/)
 
 Improving the aesthetic appeal of PDF documents can often be achieved by including a visually engaging cover page. This not only enhances the look of your PDF but also provides an excellent opportunity to feature your branding or capture the attention of your readers. IronPDF simplifies the process of adding cover pages to PDF documents, allowing developers to perform this task with minimal code via its merging capabilities.
 

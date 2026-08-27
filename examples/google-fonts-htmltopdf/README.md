@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/google-fonts-htmltopdf/>***
+> Full guide: [Google fonts htmltopdf](https://ironpdf.com/examples/google-fonts-htmltopdf/)
 
 Incorporating custom fonts is crucial when creating PDFs that need a specific aesthetic touch. Organizations often require unique fonts and bespoke icons to represent their brand effectively. IronPDF caters to this need by supporting a wide range of web fonts, including the extensive Google Fonts library.
 

@@ -6,7 +6,6 @@ namespace IronPdf.Examples.Tutorial.DotnetCorePdfGenerating
         public static void Run()
         {
             // SecureAndSign.cs — .NET 8 LTS compatible
-            using IronPdf;
             
             // Step 1: Load an existing PDF (or produce one with RenderHtmlAsPdf)
             PdfDocument pdf = PdfDocument.FromFile("financial-report.pdf");

@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/csharp-send-pdf-to-printer/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 IronPDF offers a straightforward method for developers to craft PDF files in C#, F#, and VB.NET across .NET Core and .NET Framework platforms.
 

@@ -1,6 +1,6 @@
 # Chrome PDF Rendering Engine
 
-***Based on <https://ironpdf.com/how-to/ironpdf-2021-chrome-rendering-engine-eap/>***
+> Full guide: [Chrome PDF Rendering Engine](https://ironpdf.com/how-to/ironpdf-2021-chrome-rendering-engine-eap/)
 
 
 Utilize the Chrome PDF-rendering engine to produce high-quality PDFs!
@@ -56,8 +56,6 @@ Begin by installing IronPDF in your project using the NuGet Package Manager unde
 
 ```shell
 # Install IronPDF using the NuGet CLI or through your IDE’s Package Manager
-
-***Based on <https://ironpdf.com/how-to/ironpdf-2021-chrome-rendering-engine-eap/>***
 
 nuget install IronPdf
 ```

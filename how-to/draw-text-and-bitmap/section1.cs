@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.DrawTextAndBitmap
     {
         public static void Run()
         {
-            :title=Draw text + image onto PDF in one line!
             new ChromePdfRenderer()
                 .RenderHtmlAsPdf("<h1>Doc</h1>")
                 .DrawText("Hello World", FontTypes.TimesNewRoman.Name, 12, 0, 100, 100, Color.Black, 0)

@@ -1,6 +1,6 @@
 # IronPDF Advanced Installation Guide
 
-***Based on <https://ironpdf.com/get-started/advanced-installation-nuget/>***
+> Full guide: [IronPDF Advanced Installation Guide](https://ironpdf.com/get-started/advanced-installation-nuget/)
 
 
 From version 2022.1 onwards, there are enhanced options for installing IronPDF tailored to specific platforms.

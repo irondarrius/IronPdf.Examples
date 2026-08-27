@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/encryption-and-decryption/>***
+> Full guide: [Encryption and decryption](https://ironpdf.com/examples/encryption-and-decryption/)
 
 <div class="alert alert-info iron-variant-1" role="alert">
 Is your organization facing high expenses for annual PDF security and compliance subscriptions? Look no further than <a href="https://ironsoftware.com/enterprise/securedoc/">IronSecureDoc, the Comprehensive PDF Security Solution</a>, which offers a one-time payment plan encompassing all core services like digital signing, redaction, encryption, and protection. <a href="https://ironsoftware.com/enterprise/securedoc/docs/">Explore IronSecureDoc Documentation</a>

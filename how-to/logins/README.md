@@ -1,6 +1,6 @@
 # HTML to PDF Conversion with Access-Controlled Content
 
-***Based on <https://ironpdf.com/how-to/logins/>***
+> Full guide: [HTML to PDF Conversion with Access-Controlled Content](https://ironpdf.com/how-to/logins/)
 
 
 Direct integration without login when possible allows straightforward HTML to PDF conversions from files or strings.
@@ -10,7 +10,6 @@ Direct integration without login when possible allows straightforward HTML to PD
 Effortlessly transform HTML pages locked behind authentication forms into PDF files with IronPDF’s robust API. This quickstart guide will help you employ the `ChromeHttpLoginCredentials` method to authenticate and access secured content efficiently, making your conversion process smooth. It covers scenarios from network to HTML form authentications using IronPDF to facilitate rapid, hassle-free conversions.
 
 ```cs
-:title=Easily convert a protected URL to a PDF
 new ChromePdfRenderer { LoginCredentials = new ChromeHttpLoginCredentials("username", "password") }
     .RenderUrlAsPdf("https://example.com/protected")
     .SaveAs("secured-output.pdf");

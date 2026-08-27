@@ -1,3 +1,4 @@
+using System.Linq;
 using IronPdf;
 namespace IronPdf.Examples.Tutorial.DotnetCorePdfGenerating
 {
@@ -6,8 +7,6 @@ namespace IronPdf.Examples.Tutorial.DotnetCorePdfGenerating
         public static void Run()
         {
             // ManipulateExistingPdf.cs — .NET 8 LTS compatible
-            using IronPdf;
-            using System.Linq;
             
             // Step 1: Open two existing files (password-protected PDFs are supported)
             PdfDocument invoice  = PdfDocument.FromFile("invoice.pdf", "ReadOnly");   // open with user pwd

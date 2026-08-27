@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/threading/>***
+> Full guide: [Threading](https://ironpdf.com/examples/threading/)
 
 IronPDF offers a robust, thread-safe PDF generation capability, especially efficient in multi-threading environments using the `ChromePdfRenderer` class. This functionality ensures efficient management of large-scale or batch PDF generation tasks concurrently, avoiding common concurrency issues such as thread blocking.
 

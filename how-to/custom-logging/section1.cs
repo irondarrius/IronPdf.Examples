@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.CustomLogging
     {
         public static void Run()
         {
-            :title=Start Custom Logging with IronPDF
             IronSoftware.Logger.LoggingMode = IronSoftware.Logger.LoggingModes.Custom;
             IronSoftware.Logger.CustomLogger = new MyCustomLogger();
         }

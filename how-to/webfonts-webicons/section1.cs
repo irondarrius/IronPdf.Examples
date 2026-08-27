@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.WebfontsWebicons
     {
         public static void Run()
         {
-            :title=Use web‑fonts & icon‑fonts in your PDF in one line!
             new IronPdf.ChromePdfRenderer { RenderingOptions = { WaitFor = IronPdf.Rendering.WaitFor.AllFontsLoaded(2000) } }
                 .RenderHtmlAsPdf("<link href=\"https://fonts.googleapis.com/css?family=Lobster\" rel=\"stylesheet\">" +
                                  "<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\" rel=\"stylesheet\">" +

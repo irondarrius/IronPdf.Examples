@@ -9,7 +9,6 @@ namespace IronPdf.Examples.HowTo.Old_Changed 2021_CsharpPrintPdf Copy
             Create and Print PDF
             anchor-create-a-pdf-and-print
             **/
-            using IronPdf;
             
             // Create a new PDF and print it
             

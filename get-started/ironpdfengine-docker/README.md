@@ -1,7 +1,6 @@
 # Utilizing IronPDF in a Remote Container
 
-***Based on <https://ironpdf.com/get-started/ironpdfengine-docker/>***
-
+> Full guide: [Utilizing IronPDF in a Remote Container](https://ironpdf.com/get-started/ironpdfengine-docker/)
 
 The IronPdfEngine serves as an independent service capable of managing PDF creation, modification, and reading activities. The IronPDF Docker configuration is prepared to deploy with versions of IronPDF (v2023.2.x and higher), facilitating the resolution of any deployment challenges developers might face with IronPDF.
 
@@ -154,8 +153,6 @@ Normally, the version of IronPDF for Docker aligns with the latest IronPDF versi
 string ironPdfEngineVersion = IronPdf.Installation.IronPdfEngineVersion;
 ```
 
-Here's the paraphrased section with the relative URL paths resolved:
-
 ```csharp
 // Retrieve the current version of IronPdfEngine
 string currentVersion = IronPdf.Installation.IronPdfEngineVersion;
@@ -249,8 +246,6 @@ docker pull ironsoftwareofficial/ironpdfengine
 
 This command retrieves the latest version of the IronPDF engine from Docker Hub, setting up your environment to run PDF operations in a containerized setup.
 
-Sure, here's a paraphrased version of the Docker command for pulling the IronPDF Engine:
-
 ```shell
 docker pull ironsoftwareofficial/ironpdfengine
 ```
@@ -260,20 +255,13 @@ This command retrieves the latest version of the IronPDF engine image from the D
 ```shell
 # Instead of pulling the latest version, it's recommended to pull a specific version to ensure compatibility:
 
-***Based on <https://ironpdf.com/get-started/ironpdfengine-docker/>***
-
 docker pull ironsoftwareofficial/ironpdfengine:2025.3.6
 ```
-
-Here's the paraphrased version of the section you've provided:
 
 ```shell
 docker pull ironsoftwareofficial/ironpdfengine:2025.3.6
 ```
 
-Here's your paraphrased section:
-
------
 3. Execute the `ironsoftwareofficial/ironpdfengine` container.
 
 Use the following command to initialize the container; it will operate in the background and utilize port 33350:
@@ -281,8 +269,6 @@ Use the following command to initialize the container; it will operate in the ba
 ```shell
 docker run -d -p 33350:33350 ironsoftwareofficial/ironpdfengine
 ```
-
-Here's the paraphrased version of the specific section from the article:
 
 ```shell
 docker run -d -p 33350:33350 -e IRONPDF_ENGINE_LICENSE_KEY=YOUR_LICENSE_KEY ironsoftwareofficial/ironpdfengine:2025.3.6
@@ -323,8 +309,6 @@ networks:
 
 These settings will set up IronPdfEngine and ensure it can interact with your designated application, promoting seamless integration within your Docker ecosystem.
 
-Here's your paraphrased content:
-
 ```yml
 version: '3.6'
 services:
@@ -354,14 +338,9 @@ networks:
 
 This restructured version maintains the same functional setup while updating component names for clarity and instructiveness.
 
-Here's the paraphrased version of the provided section:
-
------
 1. In your application (named `myconsoleapp`), configure the address for IronPdfEngine to be `"myironpdfengine:33350"`.
 
 2. Execute the Docker Compose process
-
-Here is the paraphrased section of the article, with paths resolved to `ironpdf.com` as instructed:
 
 ```shell
 docker compose up --detach --force-recreate --remove-orphans --use-timestamps
@@ -385,8 +364,6 @@ ChromePdfRenderer pdfRenderer = new ChromePdfRenderer();
 PdfDocument document = pdfRenderer.RenderHtmlAsPdf("<h1>Welcome to IronPDF Docker!</h1>");
 document.SaveAs("ironpdf.pdf");
 ```
-
-Here's the paraphrased section of the article with the required adjustments:
 
 ```csharp
 using IronPdf;
@@ -430,8 +407,6 @@ Here, we will outline how to set up a custom connection channel to generate and 
 If the sample code provided does not function correctly, consider eliminating the `<http>` or `<https>` prefix from the address.
 
 It's important to note that calling `pdf.Dispose` is necessary in this implementation.
-
-Here's the paraphrased section of the article:
 
 ```csharp
 using IronPdf;
@@ -549,7 +524,6 @@ Before proceeding, ensure the following:
 
 2. **Formulate a Task Definition**: Proceed to define your task by following the instructions in this [tutorial](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-task-definition.html) for using the console interface for task definitions.
 
-
 #### Suggested Configuration Settings:
 
 - **Compute Option**: Opt for **AWS Fargate** to eliminate the need to manage servers or clusters.
@@ -560,9 +534,6 @@ Before proceeding, ensure the following:
 
 - **Port Allocation**: Configure the necessary port settings.
 
-Here's the paraphrased section of the article you provided:
-
----
 ```json
 {
   "containerPort": 33350,
@@ -571,8 +542,6 @@ Here's the paraphrased section of the article you provided:
   "appProtocol": "grpc"
 }
 ```
-
-Here's the paraphrased content based on the original documentation provided:
 
 - **Image URI**: Use any IronPdfEngine image, such as "ironsoftwareofficial/ironpdfengine:2024.1.20" available on DockerHub.
   
@@ -684,9 +653,6 @@ For guidance on configuring the IronPdf client to work with IronPdfEngine, refer
 docker pull https://ironsoftware.com/gallery.ecr.aws/v1m9w8y1/ironpdfengine
 ```
 
-Here's the paraphrased section with resolved URL paths:
-
------
 Or it is recommended to fetch a specific version:
 
 ```shell
@@ -765,9 +731,6 @@ pdf.SaveAs("output.pdf");
 2. Fill out the "Basics", "Cluster Details", and "Application Details" sections to set up the Kubernetes service.
 
 3. After the deployment finishes, go to the left sidebar, choose Kubernetes resources > Run command, and execute the following command:
-```
-
-Here's the paraphrased section:
 
 ```shell
 kubectl get services
@@ -780,8 +743,6 @@ kubectl get services
 </div>
 
 Using the details of the `EXTERNAL-IP` and `PORT(S)`, you can correctly establish a connection to the IronPDFEngine.
-
-Here's your paraphrased section with improved readability and altered structure:
 
 ```csharp
 using IronPdf;
@@ -897,8 +858,6 @@ After accepting the terms, the next step involves configuring the settings. Cont
     </div>
 </div>
 
-Here is the paraphrased section:
-
 5. Retrieve the `ironpdfengine` Docker image. Below is the command sequence for downloading the Docker image:
 
 ```shell
@@ -936,37 +895,24 @@ docker run -d -p 33350:33350 000000000000.dkr.ecr.us-east-1.amazonaws.com/iron-s
 ```shell
 # Command to fetch the login password for ECR in the us-east-1 region
 
-***Based on <https://ironpdf.com/get-started/ironpdfengine-docker/>***
-
 aws ecr get-login-password --region us-east-1 |
 
 # Log into Docker using AWS credentials
-
-***Based on <https://ironpdf.com/get-started/ironpdfengine-docker/>***
 
 docker login --username AWS --password-stdin 000000000000.dkr.ecr.us-east-1.amazonaws.com
 
 # Define container image variable with IronPdf engine image details
 
-***Based on <https://ironpdf.com/get-started/ironpdfengine-docker/>***
-
 CONTAINER_IMAGES="000000000000.dkr.ecr.us-east-1.amazonaws.com/iron-software/ironpdfengine:2024.1.15"
 
 # Pull container image(s) using a loop through the variable
-
-***Based on <https://ironpdf.com/get-started/ironpdfengine-docker/>***
 
 for i in $(echo $CONTAINER_IMAGES | sed "s/,/ /g"); do
     docker pull $i
 done
 ```
 
-Here's the paraphrased section with the URL paths resolved to `ironsoftware.com`:
-
------
 6. Launch the `ironpdfengine` Docker container. Execute this command to initiate the container which will then operate quietly in the background on port 33350.
-
-Here is the paraphrased section of the article:
 
 ```shell
 docker run -d -p 33350:33350 000000000000.dkr.ecr.us-east-1.amazonaws.com/iron-software/ironpdfengine:2024.1.15
@@ -1025,9 +971,6 @@ livenessProbe:
 This setup configures a liveness probe that runs a gRPC health check command, ensuring that the service at port `33350` responds within `5` seconds.
 
 # Deploy IronPdfEngine on Microsoft Azure Container Instances
-
-***Based on <https://ironpdf.com/get-started/ironpdfengine-docker/>***
-
 
 ### Requirements Before Starting
 

@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.PdfViewing
     {
         public static void Run()
         {
-            :title=Embed a full featured PDF viewer in one line!
             new IronPdf.Viewer.Maui.PdfViewer { Source = "document.pdf" };
         }
     }

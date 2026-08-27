@@ -1,6 +1,6 @@
 # PDF Viewing in MAUI for C# .NET
 
-***Based on <https://ironpdf.com/how-to/pdf-viewing/>***
+> Full guide: [PDF Viewing in MAUI for C# .NET](https://ironpdf.com/how-to/pdf-viewing/)
 
 
 ![IronPDF Viewer Banner](https://ironpdf.com/static-assets/pdf/tutorials/pdf-viewing/ironpdf_viewer_banner.png)
@@ -9,12 +9,11 @@ In today’s landscape of software development, enabling users to view PDF docum
 
 This guide will demonstrate the integration of **IronPDF Viewer** within a MAUI application, enabling functions like viewing, saving, and printing PDF files.
 
-*as-heading:2(Quickstart: Implement PDF Viewing in MAUI using IronPDF)*
+## Quickstart: Implement PDF Viewing in MAUI using IronPDF
 
 Easily add IronPDF to your MAUI app and start displaying PDFs right away. This straightforward example shows how to initialize the IronPDF PdfViewer and load a PDF file for immediate display, perfect for developers wanting to boost their application’s PDF capabilities.
 
 ```cs
-:title=Embed a full-featured PDF viewer with a single line of code!
 new IronPdf.Viewer.Maui.PdfViewer { Source = "document.pdf" };
 ```
 

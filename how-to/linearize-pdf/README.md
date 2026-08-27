@@ -1,6 +1,6 @@
 # Optimizing PDFs for Faster Web Viewing
 
-***Based on <https://ironpdf.com/how-to/linearize-pdf/>***
+> Full guide: [Optimizing PDFs for Faster Web Viewing](https://ironpdf.com/how-to/linearize-pdf/)
 
 
 Linearized PDFs, commonly referred to as "Fast Web View" or "web-optimized PDFs," are structured to enhance their speed during internet streaming. This structural adjustment enables the initial page to load almost instantly while the rest of the document continues to download in the background.
@@ -14,7 +14,6 @@ In this guide, we'll delve into how developers can utilize IronPDF to create lin
 Begin by using IronPDF to efficiently linearize your PDF files. The following example demonstrates how to speed up PDF loading on web browsers by applying IronPDF's `LinearizePdf` method. This enhances the user experience by allowing immediate page visibility during the loading process of the document. Follow these outlined steps to enhance the efficiency of your PDFs for online distribution.
 
 ```cs
-:title=Speed Up Your PDFs Instantly - Use IronPDF
 var pdfDocument = IronPdf.PdfDocument.FromFile("input.pdf");
 pdfDocument.SaveAsLinearized(pdfDocument.BinaryData, "optimized.pdf");
 ```

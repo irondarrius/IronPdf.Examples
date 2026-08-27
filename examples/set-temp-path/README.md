@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/set-temp-path/>***
+> Full guide: [Set temp path](https://ironpdf.com/examples/set-temp-path/)
 
 When utilizing IronPDF, the software may create temporary files while processing the generation, alteration, and rendering of PDF documents. This behavior aligns with typical operations of software applications which temporarily house data during active sessions. Crucially, IronPDF grants you comprehensive control over the creation location of this folder and other essential settings pertaining to temporary files.
 

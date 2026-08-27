@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/csharp-report-generator/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 IronPDF is a premier C# library designed for converting HTML to PDF, editing PDF documents, and extracting data from PDFs. For a comprehensive guide on maximizing the potential of IronPDF for creating and adjusting PDF files using C#, consult the [IronPDF product page](https://ironpdf.com/).
 

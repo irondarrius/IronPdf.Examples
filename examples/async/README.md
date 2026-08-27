@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/async/>***
+> Full guide: [Async](https://ironpdf.com/examples/async/)
 
 IronPDF offers the capability to generate PDFs asynchronously, enhancing both performance and efficiency. Utilize the `await` keyword in conjunction with the `RenderHtmlAsPdfAsync` method from IronPDF to create PDFs seamlessly without impeding your system's overall performance.
 

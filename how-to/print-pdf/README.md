@@ -1,6 +1,6 @@
 # How to Print PDF Files in C#
 
-***Based on <https://ironpdf.com/how-to/print-pdf/>***
+> Full guide: [How to Print PDF Files in C#](https://ironpdf.com/how-to/print-pdf/)
 
 
 <div class="alert alert-info iron-variant-1" role="alert">
@@ -16,7 +16,6 @@ IronPDF introduces an efficient solution that allows for printing PDFs directly 
 IronPDF simplifies the process of printing PDF documents in .NET applications. In just a few steps, you can integrate PDF printing capabilities with minimal configuration required, allowing for high-quality prints with adjustable settings. Start streamlining your document processes today.
 
 ```cs
-:title=Effortless PDF Printing with IronPDF
 // Load and print a PDF file with a single line of code
 IronPdf.PdfDocument.FromFile("example.pdf").Print();
 ```

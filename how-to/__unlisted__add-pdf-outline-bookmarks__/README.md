@@ -1,6 +1,6 @@
 # Enhancing PDFs with Outlines and Bookmarks
 
-***Based on <https://ironpdf.com/how-to/__unlisted__add-pdf-outline-bookmarks__/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 
 Creating an intuitive navigation system in your PDFs can greatly enhance the user experience. By implementing a PDF outline, akin to a Table of Contents, users can easily jump to critical sections, improving both usability and overall design.

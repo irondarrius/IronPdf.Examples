@@ -1,6 +1,6 @@
 # Transform PDF Pages in .NET
 
-***Based on <https://ironpdf.com/how-to/transform-pdf-pages/>***
+> Full guide: [Transform PDF Pages in .NET](https://ironpdf.com/how-to/transform-pdf-pages/)
 
 
 Transforming a PDF page generally involves applying various operations that alter the visual presentation or arrangement of content on the page. Common transformations include scaling, where you resize the page, and translating, where you shift the content to a new position.

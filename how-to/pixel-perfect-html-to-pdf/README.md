@@ -1,6 +1,6 @@
 # How to Debug HTML in Chrome for Flawless PDF Output
 
-***Based on <https://ironpdf.com/how-to/pixel-perfect-html-to-pdf/>***
+> Full guide: [How to Debug HTML in Chrome for Flawless PDF Output](https://ironpdf.com/how-to/pixel-perfect-html-to-pdf/)
 
 
 At IronPDF, we prioritize delivering PDFs that are not only visually appealing but also match the exact expectations of our users. To ensure your PDFs are flawless, it's essential to work with top-quality HTML templates. IronPDF provides capabilities to render your PDFs with pixel precision according to your HTML, ensuring they look identical to their display in Chrome, thanks to our advanced Chrome Renderer.
@@ -10,7 +10,6 @@ At IronPDF, we prioritize delivering PDFs that are not only visually appealing b
 Leveraging IronPDF's Chrome Renderer, transforming HTML to PDF becomes effortless. This guide aims to help developers create PDFs that accurately reflect their HTML designs, as they appear in a Chrome browser. This method supports HTML5, CSS3, and JavaScript fully, setting it apart from many competitors. Follow these simple steps to seamlessly maintain your web branding and design integrity in your PDFs.
 
 ```cs
-:title=Quick PDF Creation Example
 // Simple example to create a PDF from HTML and save it
 var pdf = new IronPdf.ChromePdfRenderer();
 pdf.RenderHtmlAsPdf("<html><body>Hello World</body></html>").SaveAs("quick-output.pdf");

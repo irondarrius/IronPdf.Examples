@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/http-request-header/>***
+> Full guide: [HTTP request header](https://ironpdf.com/examples/http-request-header/)
 
 This sample demonstrates how to leverage HTTP request headers within IronPDF to generate a PDF from a website that requires authentication. It starts by initializing a `**ChromePdfRenderer**` instance, essential for transforming web pages or HTML content into PDF format. Following this, it involves setting HTTP request headers through the `RenderingOptions`' `HttpRequestHeaders` property. Here, an Authorization header is introduced with a Bearer token (`test-token-123`), typically used for API authentication.
 

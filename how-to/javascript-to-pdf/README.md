@@ -1,6 +1,6 @@
 # Utilizing JavaScript in HTML-to-PDF Conversion
 
-***Based on <https://ironpdf.com/how-to/javascript-to-pdf/>***
+> Full guide: [Utilizing JavaScript in HTML-to-PDF Conversion](https://ironpdf.com/how-to/javascript-to-pdf/)
 
 
 JavaScript is a powerful and versatile programming language widely utilized in web development to enrich websites with interactive and dynamic behaviors. jQuery, an integral part of the JavaScript ecosystem, is a library aimed at streamlining various JavaScript tasks like DOM manipulation, event handling, and AJAX interactions.

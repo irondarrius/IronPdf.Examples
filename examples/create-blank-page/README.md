@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/create-blank-page/>***
+> Full guide: [Create blank page](https://ironpdf.com/examples/create-blank-page/)
 
 Generating a blank PDF page typically involves creating a page in a PDF document that lacks any text, images, or graphical content. This might be strategically done for varying reasons, such as providing space for annotations, dividing sections in a document, or arranging content in a particular format.
 

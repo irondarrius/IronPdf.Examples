@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/custom-pdf-paper-size/>***
+> Full guide: [Custom PDF paper size](https://ironpdf.com/examples/custom-pdf-paper-size/)
 
 When preparing your PDF documents using IronPDF, it's important to ensure they display and print correctly. This involves specifying both the virtual and the real-world paper sizes for your document.
 

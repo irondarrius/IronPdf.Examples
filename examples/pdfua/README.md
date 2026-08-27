@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/pdfua/>***
+> Full guide: [Pdfua](https://ironpdf.com/examples/pdfua/)
 
 Using IronPDF's `SaveAsPdfUA` method, documents can be saved as PDF/UA-compliant, ensuring they meet the standards for universal accessibility. This feature enhances the inclusivity and user-friendliness of your PDF documents, especially for individuals with disabilities. For more details on crafting accessible PDFs, explore the [IronPDF PDF/UA Compliance Guide](https://ironpdf.com/how-to/pdfua/).
 

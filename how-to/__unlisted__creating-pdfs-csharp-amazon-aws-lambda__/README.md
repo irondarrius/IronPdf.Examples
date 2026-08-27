@@ -1,6 +1,6 @@
 # Implementing IronPDF in AWS Lambda for PDF Generation
 
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 
 ## 1. Set Up AWS Lambda with .NET 5 Container Image
@@ -18,19 +18,13 @@ To enable Chrome functionality in the AWS environment, follow these steps to mod
 ```dockerfile
 # Base Image -- .NET 5
 
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
-
 FROM public.ecr.aws/lambda/dotnet:5.0
 
 # Transfer application code
 
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
-
 COPY "bin/Release/net5.0/linux-x64/publish" /var/task
 
 # Installing necessary Chrome dependencies
-
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
 
 RUN yum install -y atk cups-libs libXcomposite libXcursor libXdamage libXext \
     libXi libXtst pango alsa-lib at-spi2-atk gtk3 libdrm libgbm
@@ -43,19 +37,13 @@ RUN yum install -y atk cups-libs libXcomposite libXcursor libXdamage libXext \
 ```dockerfile
 # Base Image -- .NET 7
 
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
-
 FROM public.ecr.aws/lambda/dotnet:7.0
 
 # Transfer application code
 
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
-
 COPY "bin/Release/net7.0/linux-x64/publish" /var/task
 
 # Installing necessary Chrome dependencies
-
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
 
 RUN yum install -y atk cups-libs libXcomposite libXcursor libXdamage libXext \
     libXi libXtst pango alsa-lib at-spi2-atk gtk3 libdrm libgbm
@@ -68,19 +56,13 @@ RUN yum install -y atk cups-libs libXcomposite libXcursor libXdamage libXext \
 ```dockerfile
 # Base Image -- .NET 8
 
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
-
 FROM public.ecr.aws/lambda/dotnet:8.0
 
 # Transfer application code
 
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
-
 COPY "bin/Release/net8.0/linux-x64/publish" /var/task
 
 # Installing necessary Chrome dependencies
-
-***Based on <https://ironpdf.com/how-to/__unlisted__creating-pdfs-csharp-amazon-aws-lambda__/>***
 
 RUN yum install -y atk cups-libs libXcomposite libXcursor libXdamage libXext \
     libXi libXtst pango alsa-lib at-spi2-atk gtk3 libdrm libgbm

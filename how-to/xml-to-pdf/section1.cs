@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.XmlToPdf
     {
         public static void Run()
         {
-            :title=Convert XML to PDF in one line!
             new IronPdf.ChromePdfRenderer()
                 .RenderHtmlAsPdf(
                     XslCompiledTransform.Load("template.xslt")

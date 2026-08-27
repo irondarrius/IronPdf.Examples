@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/csharp-pdf-generation/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 IronPDF empowers developers to effortlessly generate PDF files using C#, F#, and VB.NET across .NET Core and .NET Framework platforms.
 

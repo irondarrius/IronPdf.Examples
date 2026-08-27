@@ -1,6 +1,6 @@
 # Running and Deploying IronPDF .NET on Azure Functions
 
-***Based on <https://ironpdf.com/get-started/azure/>***
+> Full guide: [Running and Deploying IronPDF .NET on Azure Functions](https://ironpdf.com/get-started/azure/)
 
 
 <div class="container-fluid">

@@ -1,6 +1,6 @@
 # Understanding the "Could not initialize OLE (error 80010106)" Notification
 
-***Based on <https://ironpdf.com/how-to/could-not-initialize-ole-error/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 
 When using IronPDF within environments other than Windows Forms or WPF applications, developers might encounter this notification in their development consoles.

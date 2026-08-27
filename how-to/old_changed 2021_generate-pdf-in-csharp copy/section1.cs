@@ -9,7 +9,6 @@ namespace IronPdf.Examples.HowTo.Old_Changed 2021_GeneratePdfInCsharp Copy
             Set Viewport
             anchor-generate-pdf-with-custom-viewport
             **/
-            using IronPdf;
             IronPdf.ChromePdfRenderer Renderer = new IronPdf.ChromePdfRenderer();
             
              //Choose screen or print CSS media

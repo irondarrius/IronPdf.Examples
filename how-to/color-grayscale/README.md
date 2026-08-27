@@ -1,6 +1,6 @@
 # How to Create a Grayscale PDF
 
-***Based on <https://ironpdf.com/how-to/color-grayscale/>***
+> Full guide: [How to Create a Grayscale PDF](https://ironpdf.com/how-to/color-grayscale/)
 
 
 A grayscale PDF is a document formatted in greyscale, which uses varying shades of gray and skips the colored spectrum entirely.
@@ -12,7 +12,6 @@ IronPDF supports the creation of grayscale PDF outputs from web content or HTML 
 Easily convert your colorful PDFs to grayscale using IronPDF by adjusting the `GrayScale` property in the `RenderingOptions`. This guide will walk you through the steps to quickly produce grayscale PDF documents, ensuring they look consistent across various platforms.
 
 ```cs
-:title=Instant Grayscale Conversion
 var pdfConverter = new IronPdf.ChromePdfRenderer();
 pdfConverter.RenderingOptions.GrayScale = true;
 var resultPdf = pdfConverter.RenderUrlAsPdf("https://example.com");

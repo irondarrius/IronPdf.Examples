@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/converting-a-url-to-a-pdf/>***
+> Full guide: [Converting a URL to a PDF](https://ironpdf.com/examples/converting-a-url-to-a-pdf/)
 
 IronPDF simplifies the process of transforming HTML from existing URLs into PDF files. It offers robust support for JavaScript, images, CSS, and forms.
 

@@ -1,6 +1,6 @@
 # VB.NET PDF Creation (Code Example Tutorial)
 
-***Based on <https://ironpdf.com/get-started/vb-net-pdf/>***
+> Full guide: [VB.NET PDF Creation (Code Example Tutorial)](https://ironpdf.com/get-started/vb-net-pdf/)
 
 
 This comprehensive tutorial will walk you through the creation and modification of PDF files using VB.NET. This approach is applicable to various environments including **ASP.NET web applications**, **console applications**, **Windows Services**, and **desktop software**. You’ll be guided in developing PDF projects using VB.NET aimed at .NET Framework 4.6.2 or .NET Core 2. Prepare your Visual Basic .NET development setup, preferably Microsoft Visual Studio Community, to get started.
@@ -157,3 +157,4 @@ Imports IronPdf
 Module Module1
     Sub Main()
         Dim renderer = New ChromePdfRenderer(ctx)
+```

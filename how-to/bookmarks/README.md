@@ -1,6 +1,6 @@
 # Enhancing User Experience with PDF Bookmarks and Outlines
 
-***Based on <https://ironpdf.com/how-to/bookmarks/>***
+> Full guide: [Enhancing User Experience with PDF Bookmarks and Outlines](https://ironpdf.com/how-to/bookmarks/)
 
 
 Integrating PDF bookmarks, often referred to as outlines, into your C# projects can significantly improve usability and the overall user experience (UX). These bookmarks act as a navigational aid, similar to a Table of Contents, enabling users to swiftly navigate to crucial sections of the document. Implementing PDF outlines is an effective way to make your documents more user-friendly.
@@ -10,7 +10,6 @@ Integrating PDF bookmarks, often referred to as outlines, into your C# projects 
 Kick off your journey with IronPDF and streamline the process of embedding bookmarks in your PDF documents. This guide provides a step-by-step approach to load an existing PDF, insert bookmarks for seamless navigation, and save the enhanced document. This is ideal for developers eager to boost PDF capabilities in their C# applications quickly and efficiently.
 
 ```cs
-:title=Instant PDF Bookmark Addition
 var doc = new IronPdf.PdfDocument("example.pdf");
 doc.Bookmarks.AddBookMarkAtEnd("Chapter 1", 1);
 doc.SaveAs("bookmarked.pdf");

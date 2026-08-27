@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/pdf-to-html/>***
+> Full guide: [PDF to HTML](https://ironpdf.com/examples/pdf-to-html/)
 
 IronPDF excels in creating flawless PDF files from HTML and offers functionality for transforming PDF documents into HTML format. This is facilitated by the integration of the `PdfDocument` and `HtmlFormatOptions` classes, which provide essential methods for the conversion process and allow users to refine the formatting of the resulting HTML.
 

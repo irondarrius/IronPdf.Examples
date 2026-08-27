@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/editing-pdfs/>***
+> Full guide: [Editing PDFs](https://ironpdf.com/examples/editing-pdfs/)
 
 IronPDF boasts an impressive array of over 50 functional capabilities ideal for manipulating PDFs. Notably, some of the most utilized features include [combining PDF files](https://ironpdf.com/how-to/merge-or-split-pdfs/), [duplicating pages](https://ironpdf.com/examples/copy-pdf-page-to-another-pdf-file/), and [retrieving text from rotated elements](https://ironpdf.com/how-to/rotating-text/).
 

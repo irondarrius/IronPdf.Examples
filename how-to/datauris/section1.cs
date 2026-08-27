@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.Datauris
     {
         public static void Run()
         {
-            :title=Embed Images Effortlessly with IronPDF
             new IronPdf.ChromePdfRenderer.StaticRenderHtmlAsPdf("<img src='data:image/png;base64,...' />").SaveAs("output.pdf");
         }
     }

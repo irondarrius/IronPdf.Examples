@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/pdf-watermarking/>***
+> Full guide: [PDF watermarking](https://ironpdf.com/examples/pdf-watermarking/)
 
 IronPDF offers functionalities to add 'watermarks' to PDF documents using HTML.
 

@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.Signing
     {
         public static void Run()
         {
-            :title=Digitally sign your PDF in one line!
             new IronPdf.Signing.PdfSignature("certificate.pfx", "password").SignPdfFile("input.pdf");
         }
     }

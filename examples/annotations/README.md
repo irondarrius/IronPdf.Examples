@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/annotations/>***
+> Full guide: [Annotations](https://ironpdf.com/examples/annotations/)
 
 <div class="alert alert-info iron-variant-1" role="alert">
 Your organization might be overspending on annual subscriptions for PDF security and compliance tools. A viable alternative is <a href="https://ironsoftware.com/enterprise/securedoc/">IronSecureDoc</a>, which offers a comprehensive suite of services for managing SaaS operations such as digital signing, redaction, encryption, and security on a one-time payment model. <a href="https://ironsoftware.com/enterprise/securedoc/docs/">Check out IronSecureDoc Documentation</a>

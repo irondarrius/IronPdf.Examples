@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/cshtml-to-pdf-mvc-framework/>***
+> Full guide: [CSHTML to PDF MVC framework](https://ironpdf.com/examples/cshtml-to-pdf-mvc-framework/)
 
 This example demonstrates how to transform Views into PDF files using specific software packages.
 

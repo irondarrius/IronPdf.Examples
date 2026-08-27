@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.BlazorTutorial
     {
         public static void Run()
         {
-            :title=Generate PDFs Fast with IronPDF in Blazor
             IronPdf.HtmlToPdf.RenderHtmlAsPdf(htmlContent).SaveAs(outputPath);
         }
     }

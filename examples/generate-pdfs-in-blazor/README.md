@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/generate-pdfs-in-blazor/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 IronPDF empowers developers to generate PDF documents with ease in C#, F#, and VB.NET for both .NET Core and .NET Framework.
 

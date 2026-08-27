@@ -1,6 +1,6 @@
 # Setting Passwords and Permissions on PDF Files
 
-***Based on <https://ironpdf.com/how-to/pdf-permissions-passwords/>***
+> Full guide: [Setting Passwords and Permissions on PDF Files](https://ironpdf.com/how-to/pdf-permissions-passwords/)
 
 
 <div class="alert alert-info iron-variant-1" role="alert">
@@ -16,7 +16,6 @@ IronPDF delivers full-spectrum support for securing your PDF files with intricat
 Start securing your PDF documents swiftly with IronPDF. Below, we demonstrate how you can assign user and owner passwords and establish permissions to block unauthorized printing. By following these steps, you'll enhance the security of your PDF documents, making sure your confidential information stays protected. IronPDF simplifies embedding potent security into your C# .NET applications.
 
 ```cs
-:title=Effortlessly Secure Your PDFs
 var pdf = IronPdf.PdfDocument.FromFile("document.pdf");
 pdf.SecuritySettings.OwnerPassword = "owner123";
 pdf.SecuritySettings.UserPassword = "user123";

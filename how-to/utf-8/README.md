@@ -1,6 +1,6 @@
 # Utilizing UTF-8 Encoding and International Languages in PDF Documents
 
-***Based on <https://ironpdf.com/how-to/utf-8/>***
+> Full guide: [Utilizing UTF-8 Encoding and International Languages in PDF Documents](https://ironpdf.com/how-to/utf-8/)
 
 
 IronPDF seamlessly supports UTF-8 encoding in PDF documents, adhering to the Chrome standard. This means that any character that renders correctly within a Chrome browser is also supported by IronPDF, ensuring accurate representations of foreign languages in your PDFs. In the following guide, we will showcase the steps to enable UTF-8 encoding in your PDFs using IronPDF.

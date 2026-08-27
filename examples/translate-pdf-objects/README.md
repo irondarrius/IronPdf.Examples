@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/translate-pdf-objects/>***
+> Full guide: [Translate PDF objects](https://ironpdf.com/examples/translate-pdf-objects/)
 
 When you need to reposition a text, image, or shape within a PDF, IronPDF provides an efficient way to directly manipulate the object's position using our library tools.
 
@@ -15,7 +15,6 @@ In this coding tutorial, we'll demonstrate how you can easily move objects withi
         <li>pdf.SaveAs("moved.pdf");</li>
     </ol>
 </div>
-```
 
 ## Detailed Code Walkthrough
 

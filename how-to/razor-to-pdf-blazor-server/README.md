@@ -1,6 +1,6 @@
 # Transforming Razor Components into PDFs using Blazor Server
 
-***Based on <https://ironpdf.com/how-to/razor-to-pdf-blazor-server/>***
+> Full guide: [Transforming Razor Components into PDFs using Blazor Server](https://ironpdf.com/how-to/razor-to-pdf-blazor-server/)
 
 
 Razor components are versatile user interface building blocks containing C# and Razor syntax, commonly used for crafting pages, dialogs, or complex forms as reusable UI elements.
@@ -14,7 +14,6 @@ IronPDF presents an effective solution for dynamically creating PDFs from Razor 
 IronPDF simplifies the conversion of Razor components into PDF files in Blazor Server applications. By using a few lines of code with the `RenderRazorComponentToPdf` method, you can effortlessly transform your UI components into high-quality PDF documents. This guide will help you integrate the conversion process into your project smoothly, ideal for developers looking for a quick and hassle-free implementation. This approach not only supports rapid deployment but also offers customization options to enhance your PDF outputs.
 
 ```cs
-:title=Quickly transform a Blazor Razor component into a PDF
 // Install-Package IronPdf.Extensions.Blazor
 var pdfDocument = new IronPdf.ChromePdfRenderer()
     .RenderRazorComponentToPdf<MyComponent>(new Dictionary<string,object> { { "persons", personsList } })

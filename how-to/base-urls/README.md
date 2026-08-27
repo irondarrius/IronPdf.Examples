@@ -1,6 +1,6 @@
 # Implementing Base URLs and Asset Management with IronPDF
 
-***Based on <https://ironpdf.com/how-to/base-urls/>***
+> Full guide: [Implementing Base URLs and Asset Management with IronPDF](https://ironpdf.com/how-to/base-urls/)
 
 
 IronPDF stands out in the .NET landscape for its ability to easily convert HTML into PDF documents. 
@@ -12,7 +12,6 @@ One frequent application of this toolkit involves converting HTML designed layou
 To start using IronPDF for converting HTML to PDFs in .NET C#, you can establish base URLs to ensure all assets like CSS, JavaScript, and images are correctly linked. This simplifies the PDF creation process significantly and is ideal for developers looking to improve their PDF outputs effortlessly.
 
 ```cs
-:title=Setting Base URL in Single-Line Code
 new IronPdf.ChromePdfRenderer().RenderHtmlAsPdf("<img src='https://ironpdf.com/icons/logo.png'>", @"C:\site\assets\").SaveAs("with‑assets.pdf");
 ```
 

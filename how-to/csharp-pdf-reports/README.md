@@ -1,6 +1,6 @@
 # Generate PDF Reports in ASP.NET Using C# or VB
 
-***Based on <https://ironpdf.com/how-to/csharp-pdf-reports/>***
+> Full guide: [Generate PDF Reports in ASP.NET Using C# or VB](https://ironpdf.com/how-to/csharp-pdf-reports/)
 
 
 Creating management or database-driven reports from structured sources such as SQL databases is a typical task in .NET development. IronPDF serves as an effective PDF reader in C# and facilitates the exportation and visualization of SSIS reports in PDF format within ASP.NET C# applications.
@@ -26,8 +26,6 @@ Use NuGet to install: [IronPdf on NuGet](https://www.nuget.org/packages/IronPdf)
 
 ```shell
 # Installation command for IronPdf
-
-***Based on <https://ironpdf.com/how-to/csharp-pdf-reports/>***
 
 Install-Package IronPdf
 ```

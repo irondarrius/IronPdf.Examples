@@ -1,6 +1,6 @@
 # IronPDF License Keys
 
-***Based on <https://ironpdf.com/get-started/license-keys/>***
+> Full guide: [IronPDF License Keys](https://ironpdf.com/get-started/license-keys/)
 
 
 ## Acquiring a License Key

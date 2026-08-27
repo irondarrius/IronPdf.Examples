@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/page-numbers-and-page-breaks/>***
+> Full guide: [Page numbers and page breaks](https://ironpdf.com/examples/page-numbers-and-page-breaks/)
 
 IronPDF excels in tailoring headers and footers to meet specific developer needs and functionalities. This includes seamlessly integrating extra details like page numbers into the header or footer areas.
 

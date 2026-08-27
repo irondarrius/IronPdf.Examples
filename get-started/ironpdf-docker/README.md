@@ -1,6 +1,6 @@
 # Integrating IronPDF within Docker Containers
 
-***Based on <https://ironpdf.com/get-started/ironpdf-docker/>***
+> Full guide: [Integrating IronPDF within Docker Containers](https://ironpdf.com/get-started/ironpdf-docker/)
 
 
 IronPDF now fully supports integration with Docker across diverse environments, including Azure Docker Containers tailored for both Linux and Windows platforms.

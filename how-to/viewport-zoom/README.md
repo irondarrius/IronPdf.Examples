@@ -1,6 +1,6 @@
 # Mastering Virtual Viewport and Zoom Settings
 
-***Based on <https://ironpdf.com/how-to/viewport-zoom/>***
+> Full guide: [Mastering Virtual Viewport and Zoom Settings](https://ironpdf.com/how-to/viewport-zoom/)
 
 
 When converting HTML to PDF, the viewport is crucial because it dictates how the browser renders the web page into the PDF. Essentially, it's the virtual browser size that helps in capturing the webpage accurately.

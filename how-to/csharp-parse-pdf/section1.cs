@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.CsharpParsePdf
     {
         public static void Run()
         {
-            :title=Parse PDFs Instantly with IronPDF
             var text = IronPdf.FromFile("sample.pdf").ExtractAllText();
         }
     }

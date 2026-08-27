@@ -5,7 +5,6 @@ namespace IronPdf.Examples.HowTo.Cookies
     {
         public static void Run()
         {
-            :title=Render a cookies‑protected page to PDF in one line!
             new IronPdf.ChromePdfRenderer { RenderingOptions = { RequestContext = IronPdf.Rendering.RequestContexts.Global, CustomCookies = new Dictionary<string, string> { { "sessionId", "your_cookie_value" } } } }
                 .RenderUrlAsPdf("https://example.com/protected")
                 .SaveAs("secureWithCookies.pdf");

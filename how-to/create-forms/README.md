@@ -1,6 +1,6 @@
 # Creating PDF Forms with IronPDF
 
-***Based on <https://ironpdf.com/how-to/create-forms/>***
+> Full guide: [Creating PDF Forms with IronPDF](https://ironpdf.com/how-to/create-forms/)
 
 
 IronPDF delivers a robust toolkit for generating PDF forms, enabling you to include a variety of form elements such as input fields, text areas, checkboxes, comboboxes, radio buttons, and images. This functionality allows the creation of dynamic, interactive PDF forms that enhance user interaction by letting them complete and save their entries across diverse applications and use cases.
@@ -10,7 +10,6 @@ IronPDF delivers a robust toolkit for generating PDF forms, enabling you to incl
 Jumpstart your PDF project with IronPDF by creating fillable, dynamic PDF forms using straightforward C# programming. IronPDF's API simplifies the addition of text inputs, checkboxes, and other form elements with minimal coding required. Follow this quick tutorial to learn how to easily specify form elements and save your document, an ideal solution for developers looking to quickly deploy PDF form functionalities.
 
 ```cs
-:title=Construct your PDF form effortlessly!
 var pdfRenderer = new IronPdf.ChromePdfRenderer { RenderingOptions = { CreatePdfFormsFromHtml = true } };
 pdfRenderer
     .RenderHtmlAsPdf("<html><body><form>First name: <input type='text' name='firstname' value=''>Last name: <input type='text' name='lastname' value=''></form></body></html>")

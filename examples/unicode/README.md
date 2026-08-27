@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/unicode/>***
+> Full guide: [Unicode](https://ironpdf.com/examples/unicode/)
 
 IronPDF seamlessly integrates Unicode support to enable the rendering of various global languages in PDF files, along with UTF-8 encoding to facilitate the display of modern alphabetic languages. It's important to note that your system must have Unicode fonts installed for this feature to function properly. While Windows and Mac systems generally come with these fonts pre-installed, Linux users might need to install these fonts manually.
 

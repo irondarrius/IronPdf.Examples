@@ -1,6 +1,6 @@
 # Asynchronous and Multithreaded PDF Creation
 
-***Based on <https://ironpdf.com/how-to/async/>***
+> Full guide: [Asynchronous and Multithreaded PDF Creation](https://ironpdf.com/how-to/async/)
 
 
 Discover the importance of asynchronous programming and multithreading when creating [high-performance PDFs using IronPDF in C# and VB.NET](https://ironpdf.com/docs/) for batch processes or enhanced efficiency.
@@ -10,7 +10,6 @@ Discover the importance of asynchronous programming and multithreading when crea
 Jumpstart your journey with IronPDF to asynchronously generate PDFs from HTML content, increasing the efficiency of your applications. Use the `RenderHtmlAsPdfAsync` method to seamlessly transfer HTML into PDF format and experience the strides in performance when handling batch operations or working in multithreaded scenarios. The robust features of IronPDF simplify the process, enabling rapid PDF creation.
 
 ```cs
-:title=Quick HTML to PDF Conversion
 var pdf = await IronPdf.ChromePdfRenderer.RenderHtmlAsPdfAsync("<h1>Hello World!</h1>");
 ```
 

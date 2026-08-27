@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/generate-pdfs-with-default-parameters/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 The flagship feature of IronPDF is its ability to convert HTML into PDFs while retaining the original layouts and styles. This functionality is essential for creating PDFs from web content for various uses such as reports, invoices, and documentation. Users can convert HTML files, URLs, and HTML strings directly into PDF documents. For more details, explore our comprehensive guide on [HTML to PDF Conversion](https://ironpdf.com/tutorials/html-to-pdf/).
 

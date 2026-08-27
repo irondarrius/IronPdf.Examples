@@ -1,4 +1,4 @@
-***Based on <https://ironpdf.com/examples/xaml-to-pdf-maui/>***
+> Full guide: [Xaml to PDF MAUI](https://ironpdf.com/examples/xaml-to-pdf-maui/)
 
 The following example illustrates how a MAUI page can be transformed into a PDF document.
 
