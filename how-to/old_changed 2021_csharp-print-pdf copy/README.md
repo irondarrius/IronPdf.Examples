@@ -1,6 +1,6 @@
 # Printing PDFs in C# with IronPDF
 
-***Based on <https://ironpdf.com/how-to/old_changed 2021_csharp-print-pdf copy/>***
+> Full guide: [Printing PDFs in C# with IronPDF](https://ironpdf.com/how-to/csharp-print-pdf/)
 
 
 This guide elucidates the process of printing PDF documents in C# using the IronPDF library. Whether you are coding in Visual Basic or C#, this tutorial will guide you through the steps required for programmatic PDF printing.

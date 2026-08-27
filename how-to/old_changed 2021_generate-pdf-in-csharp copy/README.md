@@ -1,6 +1,6 @@
 # Create PDFs in C&num;
 
-***Based on <https://ironpdf.com/how-to/old_changed 2021_generate-pdf-in-csharp copy/>***
+> Docs: [IronPDF documentation](https://ironpdf.com/docs/)
 
 
 Creating and managing PDF documents efficiently in C# is a common requirement across multiple projects. A library that covers both .NET Core and .NET Framework keeps that work out of the application code.

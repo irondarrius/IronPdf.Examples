@@ -9,7 +9,7 @@ Transforming a PDF page generally involves applying various operations that alte
 
 Discover how to effortlessly transform PDF pages using the IronPDF library in .NET. With a few simple lines of code, you can adjust scale and shift content, maintaining the original dimensions of the page. This guide shows you how to apply these modifications to enhance your PDF documents fluidly.
 
-```cs:title=Transform PDF pages with both translation and scaling in one step!
+```cs
 IronPdf.PdfDocument.FromFile("input.pdf")
   .Pages[0].Transform(50, 50, 0.8, 0.8)
   .SaveAs("output-transformed.pdf");
