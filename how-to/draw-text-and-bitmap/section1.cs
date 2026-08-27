@@ -1,3 +1,5 @@
+using IronPdf.Font;
+using IronSoftware.Drawing;
 using IronPdf;
 namespace IronPdf.Examples.HowTo.DrawTextAndBitmap
 {

@@ -1,3 +1,4 @@
+using IronPdf.Signing;
 using System.Drawing;
 using IronPdf;
 namespace IronPdf.Examples.HowTo.SigningPdfWithHsm

@@ -1,3 +1,5 @@
+using IronPdf.Editing;
+using IronPdf.Rendering;
 using IronPdf;
 namespace IronPdf.Examples.Tutorial.DotnetCorePdfGenerating
 {

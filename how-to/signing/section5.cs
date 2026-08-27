@@ -1,3 +1,4 @@
+using IronPdf.Rendering;
 using IronPdf.Signing;
 using IronPdf;
 namespace IronPdf.Examples.HowTo.Signing

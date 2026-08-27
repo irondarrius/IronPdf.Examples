@@ -1,6 +1,7 @@
 
 // PM > Install-Package IronPdf.Extensions.Razor
 
+using IronPdf;
 using IronPdf.Razor.Pages;
 
 public IActionResult OnPostAsync()

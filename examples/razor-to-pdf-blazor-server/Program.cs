@@ -1,3 +1,5 @@
+using IronPdf;
+using IronPdf.Font;
 
 // PM > Install-Package IronPdf.Extensions.Blazor
 

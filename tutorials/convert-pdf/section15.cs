@@ -1,3 +1,4 @@
+using IronPdf.Logging;
 using IronPdf;
 namespace IronPdf.Examples.Tutorial.ConvertPdf
 {

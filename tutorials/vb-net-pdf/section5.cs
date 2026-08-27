@@ -1,3 +1,4 @@
+using IronPdf.Font;
 using IronPdf;
 namespace IronPdf.Examples.Tutorial.VbNetPdf
 {

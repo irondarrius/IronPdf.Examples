@@ -5,7 +5,9 @@ namespace IronPdf.Examples.GettingStarted.VbNetPdf
     {
         public static void Run()
         {
-            <div style='page-break-after: always;'>&nbsp;</div>
+            // This block is markup from the accompanying README, not C#.
+            // Kept verbatim; see README.md for the full context.
+            // <div style='page-break-after: always;'>&nbsp;</div>
         }
     }
 }

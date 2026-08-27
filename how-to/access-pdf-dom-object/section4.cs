@@ -1,3 +1,4 @@
+using IronSoftware.Drawing;
 using System.Linq;
 using IronPdf;
 namespace IronPdf.Examples.HowTo.AccessPdfDomObject

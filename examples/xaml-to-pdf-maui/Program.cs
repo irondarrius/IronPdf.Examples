@@ -1,3 +1,4 @@
+using IronPdf;
 
 // PM > Install-Package IronPdf.Extensions.Maui
 
